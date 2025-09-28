@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gamer Zone</title>
+    <style>
+        body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.3) url(images/games_wallpaper.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+nav{
+    box-sizing: border-box;
+    border: 3px solid rgb(10, 2, 82);
+    background-color: #000080;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+nav h2{
+    margin-left: 11px;
+    cursor: pointer;
+    color: #000;
+}
+nav h2 span{
+    font-style:oblique;
+    color: rgb(250, 249, 255);
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 4px;
+}
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    transition: 2s;
+
+}
+nav .btn{
+    color: #000;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: rgb(10, 2, 82);   
+}
+.tekst{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 30px;
+}
+.tekst p{
+    font-size: 25px;
+}
+.dugme{
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 31%;
+    font-size: 25px;
+}
+.dugme a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(10, 2, 82);
+    padding: 10px;
+    border: 2px solid #000;
+}
+.slika{
+    position: relative;
+    left: 60%;
+    top: 25%;
+    width: 100px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+form{
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    margin:100px 70px;
+    padding: 0px 5px;
+    display: inline-block;
+}
+#submit{
+    margin: 5px;
+}
+#proizvodi-lista{
+    border: 1px black solid;
+    background-color:blue;
+    margin: 60px 70px ;
+    width: 450px;
+}
+.proizvodi{
+    background-color: white;
+    margin:100px 50px 10px 50px;
+    width: 250px;
+    padding: 10px;
+}
+    </style>
+    <link rel="icon" href="images/gaming_land.jpg">
+</head>
+<body onload="updateTime()">
+    <h1>O nama</h1>
+    <p>Trenutno je <span id="time"></span>.</p>
+    <nav>
+        <h2><span>GAMER </span>ZONE  <br><br>  O nama</h2>        
+    <ul>
+        <li> <a style="color: white;" href="index.html"> O nama </a> </li>
+        <li> <a style="color: white;" href="products.html"> Proizvodi </a> </li>
+        <li> <a style="color: white;" href="contact.html"> Kontakt </a> </li>
+    </ul>
+    </nav>
+    
+    <div class="tekst">
+        <h3>Dobrodošli u Gamer Zone</h3>
+        <p>Kupite popularne PC video igre na našem sajtu!</p>
+    </div>
+    <div id="dugme">
+        <a href="file:///C:/Users/korisnik/Desktop/Projekat%20Nemanja%20Ninkov%20IT49-22/products.html"></a>">KUPITE ODMAH!</a>
+    </div>
+    <div class="slika">
+        <a href="file:///C:/Users/korisnik/Desktop/Projekat%20Nemanja%20Ninkov%20IT49-22/contact.html"><img src="images/game_zone.jpg" ></a>
+   
+    </div>
+    
+    <script>var BotStar={appId:"s8fa01a96-eca1-4d8e-b565-6c106319c906",mode:"livechat"};!function(t,a){var e=function(){(e.q=e.q||[]).push(arguments)};e.q=e.q||[],t.BotStarApi=e;!function(){var t=a.createElement("script");t.type="text/javascript",t.async=1,t.src="https://widget.botstar.com/static/js/widget.js";var e=a.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();}(window,document)</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <title>Kontakt</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.3) url(images/games_wallpaper.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+nav{
+    box-sizing: border-box;
+    border: 3px solid rgb(10, 2, 82);
+    background-color: #000080;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+nav h2{
+    margin-left: 11px;
+    cursor: pointer;
+    color: #000;
+}
+nav h2 span{
+    font-style:oblique;
+    color: rgb(250, 249, 255);
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 4px;
+}
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    transition: 2s;
+}
+nav h1 span{
+    font-style:oblique;
+    color: rgb(250, 249, 255);
+}
+    </style>
+    <link rel="icon" href="images/gaming_land.jpg">
+</head>
+<body onload="updateTime()">
+    <p>Trenutno je <span id="time"></span>.</p>
+    <nav>
+        <h1><span>GAMER </span>ZONE  <br><br> Kontakt</h1>        
+    <ul>
+        <li> <a style="color: white;" href="index.html"> O nama </a> </li>
+        <li> <a style="color: white;" href="products.html"> Proizvodi </a> </li>
+        <li> <a style="color: white;" href="contact.html"> Kontakt </a> </li>
+    </ul>
+    <br><br><br><br><br>     
+    </nav>
+    <br><br><br><br><br><br><br>  
+    <h2 style="color: white;">Nothing is true, everything is permitted.</h2>
+    <form>
+        <label for="adress" style="color: white;">Adresa:</label><br><br>
+  <input type="text" id="adress" name="adress" value="Bulevar Oslobođenja 78"><br><br>
+  <label for="location" style="color: white;">Lokacija:</label> <br><br>
+  <input type="text" id="location" name="location" value="Novi Sad, Srbija"> <br><br>
+  <label for="text" style="color: white;">Broj telefona:</label><br><br>
+  <input type="number" id="number" name="number" value="0216853811"><br><br>
+    </form>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

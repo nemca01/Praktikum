@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Proizvodi</title>
+    <style>
+        body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.3) url(images/games_wallpaper.jpg);
+    background-blend-mode: darken;
+    background-size: auto;
+}
+nav{
+    box-sizing: border-box;
+    border: 3px solid rgb(10, 2, 82);
+    background-color: #000080;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+nav h2{
+    margin-left: 11px;
+    cursor: pointer;
+    color: #000;
+}
+nav h2 span{
+    font-style:oblique;
+    color: rgb(250, 249, 255);
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 4px;
+}
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    transition: 2s;
+}
+nav h3 span{
+    font-style:oblique;
+    color: rgb(250, 249, 255);
+}
+.p1{
+    background-color: rgb(10, 2, 82);
+      width: 15%;
+      height: 30px;
+      font-weight: bold;
+      padding: 5px;
+}
+.igrice p{
+    background-color: rgb(10, 2, 82);
+      width: 80%;
+      height: 30px;
+      font-weight: bold;
+      padding: 5px;
+}
+.igrice1{
+    display: inline-block;
+    margin: 2% 5%;
+    width: 20%;
+}
+.igrice1 img{
+    width: 220px;
+    height: 300px;
+}
+button{
+    width: 40%;
+    margin: 1% 15%;
+}
+    </style>
+    <link rel="icon" href="images/gaming_land.jpg">
+</head>
+<body onload="updateTime()">
+    <p>Trenutno je <span id="time"></span>.</p>
+    <nav>
+        <h3><span>GAMER </span>ZONE  <br><br>  Proizvodi</h3>      
+    <ul>
+        <li> <a style="color: white;" href="index.html"> O nama </a> </li>
+        <li> <a style="color: white;" href="products.html"> Proizvodi </a> </li>
+        <li> <a style="color: white;" href="contact.html"> Kontakt </a> </li>
+    </ul>
+    </nav>
+    <br><br><br><br><br><br>
+    <h1 style="color: white;">Igre koje naš sajt nudi</h1>
+    <h2 style="color: white;">May the site of gaming guide you.</h2>
+     <br><br><br><br>
+        <header>
+            <div class="igrice">
+            <ul>
+                <li class="igrice1"><a href="#" style="color: white;"><p> THE WITCHER 3: WILD HUNT </p></a>
+                    <br><br><br>
+                    <img src="images/the_witcher_3_.jpg">
+                    <br><br><br>
+                    <button  type="button" onclick="kupovina()"> 3.000RSD </button>
+                    <br><br><br><br><br>
+                <li class="igrice1"><a href="#" style="color: white;"><p> ASSASSIN'S CREED II </p></a>
+                    <br><br><br>
+                    <img src="images/assassins-creed-2pc.jpg">
+                    <br><br><br>
+                    <button type="button"  onclick="kupovina()"> 1.200RSD </button>
+                    <br><br><br><br><br>
+                <li class="igrice1"><a href="#" style="color: white;"><p> GRAND THEFT AUTO IV </p></a>
+                    <br><br><br>
+                    <img src="images/gta4.jpg">
+                    <br><br><br>
+                    <button type="button"  onclick="kupovina()"> 2.300RSD </button>
+                    <br><br><br><br><br>
+                <li class="igrice1"><a href="#" style="color: white;"><p> FIFA 22 </p></a>
+                    <br><br><br>
+                    <img src="images/fifa22.jpg">
+                    <br><br><br>
+                    <button type="button"  onclick="kupovina()"> 7.000RSD </button>
+                    <br><br><br><br><br>
+                <li class="igrice1"><a href="#" style="color: white;"><p> STRONGHOLD 2 DELUXE </p></a>
+                    <br><br><br>
+                    <img src="images/Stronghold-2-Deluxe.jpg">
+                    <br><br><br>
+                    <button type="button"  onclick="kupovina()"> 1.800RSD </button>
+                    <br><br><br><br><br>
+                <li class="igrice1"><a href="#" style="color: white;"><p> TOMB RAIDER: THE ANGEL OF DARKNESS </p></a>
+                    <br><br><br>
+                    <img src="images/TR6.jpg">
+                    <br><br><br>
+                    <button type="button"  onclick="kupovina()"> 1.000RSD </button>                
+                </li>
+            </ul>
+        </div>
+        </header>  
+        <!-- <script src="script.js"></script> -->
+</body>
+</html>
